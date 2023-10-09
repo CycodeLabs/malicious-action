@@ -1,0 +1,10 @@
+name: malicious-action
+description: Malicious Action for demos
+inputs:
+  example:
+    description: example
+    required: false
+    default: 'false'
+runs:
+  using: docker
+  image: cycodelabs/malicious-image:latest
