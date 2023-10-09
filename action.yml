@@ -7,4 +7,4 @@ inputs:
     default: 'false'
 runs:
   using: docker
-  image: cycodelabs/malicious-image:latest
+  image: docker://cycodelabs/malicious-image:latest
